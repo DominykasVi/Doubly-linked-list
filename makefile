@@ -4,7 +4,7 @@ main: main.c
 .PHONY: all run clean
 
 clean:
-	del -f main.exe text.exe
+	del -f main.exe test.exe
 
 run: main
 	./main
